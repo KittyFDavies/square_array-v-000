@@ -3,5 +3,4 @@ def square_array(array)
   array.each do |i|
     i + 1
   end
-  puts array
 end
