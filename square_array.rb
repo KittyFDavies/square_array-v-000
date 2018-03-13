@@ -1,6 +1,9 @@
 def square_array(array)
   # your code here
   array.each do |i|
-    i += 1
+    index = 0
+    i == i * i
+    array[index] = i
+    index += 1
   end
 end
